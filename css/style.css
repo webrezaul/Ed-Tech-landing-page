@@ -1,0 +1,24 @@
+/* Import fonts from fonts.css file*/
+
+@import url(./fonts.css);
+
+body{
+
+    background-color: lightblue;
+}
+.header1{
+        
+            color: aliceblue;
+            font-size: 30px;
+            text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+
+}
+navbar
