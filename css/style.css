@@ -1,24 +1,23 @@
-/* Import fonts from fonts.css file*/
+/* 
 
-@import url(./fonts.css);
+@media only screen and (max-width: 700px) {
+    #course {
+        display: list-item;
+      background-color: lightblue;
+      align-items: center;
+      padding-left: 3cm;
+      width: 500px;
+    }
+  }
 
-body{
-
-    background-color: lightblue;
+  @media only screen and (max-width: 1200px) {
+    #course {
+    display:flex;
+  }
 }
-.header1{
-        
-            color: aliceblue;
-            font-size: 30px;
-            text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
-.header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--roboto);
-    text-transform: uppercase;
-    padding: 1.7rem;
-    color: var(--title-color);
-
+@media only screen and (max-width: 1800px) {
+    #course {
+    display:flex;
+  } */
 }
-navbar
